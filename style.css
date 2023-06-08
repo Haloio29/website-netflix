@@ -38,3 +38,69 @@ nav button{
       margin-left: 10px;
       cursor: pointer;
 }
+.bahasa-btn{
+      display: inline-flex;
+      align-items: center;
+      background: transparent;
+      border: 1px solid #fff;
+      padding: 7px 10px;
+}
+.bahasa-btn img{
+      width: 10px;
+      margin-left: 10px;
+}
+.header-content{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      margin-top: 10px;
+}
+.header-content h1{
+      font-size: 60px;
+      line-height: 70px;
+      font-weight: 600;
+      max-width: 650px;
+      margin-bottom: 20px;
+}
+.header-content h3{
+      font-weight: 500;
+      margin-bottom: 20px;
+}
+.email{
+      background:#fff;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      overflow: hidden;
+}
+.email input{
+      flex: 1;
+      border: 0;
+      outline: 0;
+      margin-left: 20px;
+}
+.email button{
+      background: #db0001;
+      border: 0;
+      outline: 0;
+      color: #fff;
+      cursor: pointer;
+      font-size: 20px;
+      padding: 15px 30px;
+}
+
+/* Center */
+.center{
+      padding: 50px 12%;
+      font-size: 22px;
+}
+.row{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 50px 0;
+}
