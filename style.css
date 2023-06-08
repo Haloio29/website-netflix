@@ -104,3 +104,86 @@ nav button{
       flex-wrap: wrap;
       padding: 50px 0;
 }
+.col{
+      flex-basis: 50%;
+      margin-bottom: 20px;
+}
+
+.img-col{
+      flex-basis: 50%;
+      margin-bottom: 20px;
+}
+.img-col img{
+      display: block;
+      width: 90%;
+      margin: auto;
+}
+.center h2{
+      font-size: 53px;
+      font-weight: 550;
+      margin-bottom: 20px;
+}
+
+/* FAQ */
+.faq{
+      padding: 10px 12%;
+      text-align: center;
+      font-size: 18px;
+}
+.faq h2{
+      font-size: 40px;
+}
+.row-faq{
+      margin: 60px auto;
+      width: 100%;
+      max-width: 750px;
+}
+input[type="radio"]{
+      display: none;
+}
+.row-faq li{
+      list-style: none;
+      width: 100%;
+      padding: 5px;
+}
+.row-faq li label{
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 500px;
+      background: #303030;
+      margin-bottom: 2px;
+      cursor: pointer;
+      position: relative;
+}
+label::after{
+      content: '+';
+      font-size: 34px;
+      position: absolute;
+      right: 20px;
+      transition: transformm 0.5s;
+}
+.row-faq .content{
+      background: #303030;
+      text-align: left;
+      padding: 0 20px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s, padding 0.5s;
+}
+.row-faq input[type="radio"]:checked + label + .content{
+      max-height: 600px;
+      padding: 30px 20px;
+}
+.row-faq input[type="radio"]:checked + label::after{
+      transform: rotate(135deg);
+}
+.faq .email{
+      
+      max-width: 600px;
+      margin: 20px auto 60px;
+}
+.faq small{
+      font-size: 15px;
+}
