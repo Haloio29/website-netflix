@@ -129,9 +129,11 @@ nav button{
       padding: 10px 12%;
       text-align: center;
       font-size: 18px;
+      border-top: 6px solid #333;
 }
 .faq h2{
       font-size: 40px;
+      margin-top: 30px;
 }
 .row-faq{
       margin: 60px auto;
@@ -186,4 +188,94 @@ label::after{
 }
 .faq small{
       font-size: 15px;
+}
+
+/* Footer */
+.footer{
+      padding: 50px 15% 10px;
+      border-top: 6px solid #333;
+      color: #777;
+}     
+.footer h2{
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 30px;
+}
+.footer .col{
+      flex-basis: 25%;
+      flex-grow: 1;
+      margin-bottom: 10px;
+}
+.footer .col a{
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 10px;
+      text-decoration: underline;
+}
+.footer .row{
+      align-items: flex-start;
+      padding: 10px;
+      margin-bottom: 10px;
+}
+.footer .bahasa-btn{
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 3px;
+}
+.copyright{
+      font-size: 14px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px){
+      .logo{
+            width: 100px;
+      }
+      nav button{
+            padding: 5px 10px;
+      }
+      nav .bahasa-btn{
+            padding: 4px 8px;
+      }
+      .header-content{
+            position: unset;
+            transform: none;
+            padding-top: 150px;
+      }
+      .header-content h1{
+            font-size: 30px;
+      }
+      .email button{
+            font-size: 12px;
+            padding: 10px 15px;
+      }
+      .col, .img-col{
+            flex-basis: 100%;
+      }
+      .center h2{
+            font-size: 30px;
+      }
+      .row:nth-child(2), .row:nth-child(4){
+            flex-direction: column-reverse;
+      }
+      .center .row{
+            padding: 10px 0;
+      }
+      .faq h2{
+            font-size: 20px;
+      }
+      .row-faq .content{
+            font-size: 14px;
+      }
+      .row-faq li label{
+            padding: 10px;
+            font-size: 14px;
+      }
+      label::after{
+            font-size: 22px;
+      }
 }
